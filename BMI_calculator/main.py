@@ -4,8 +4,8 @@
 # bmi is equal to the person's weight divided by the person's height squared.
 # bmi = weight / (height ** 2)
 
-weight = int(input("Input your weight(kg.): "))
-height = int(input("Type your height(cm.): "))
+weight = float(input("Input your weight(kg.): "))
+height = float(input("Type your height(cm.): "))
 
 bmi = weight / (height ** 2)
 
